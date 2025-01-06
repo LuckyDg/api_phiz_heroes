@@ -452,7 +452,7 @@ Postman es una herramienta muy útil para probar APIs. Permite realizar solicitu
 
 4. Importa el archivo de Postman:
 
-- Descarga el archivo [Mmorpg_Api_Platzi_Node.postman_collection.json](../postman/Mmorpg_Api_Platzi_Node.postman_collection.json).
+- Descarga el archivo [Mmorpg_Api_Platzi_Node.postman_collection.json](https://github.com/LuckyDg/api_phiz_heroes/blob/main/postman/Mmorpg_Api_Platzi_Node.postman_collection.json).
 - Abre Postman y selecciona la opción para importar una colección.
 - Importa el archivo descargado `Mmorpg_Api_Platzi_Node.postman_collection.json`.
 - Una vez importado, podrás probar todas las rutas de la API directamente desde Postman.
