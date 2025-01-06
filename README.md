@@ -23,4 +23,6 @@ npm run dev
 ```bash
 npm run start
 ```
-# api_phiz_heroes
+
+### Documentación
+[Documentación del proyecto](Docs/Doc.md)

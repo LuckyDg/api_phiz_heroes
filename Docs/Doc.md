@@ -369,9 +369,6 @@ Imagina un juego MMORPG donde un jugador quiere eliminar un héroe de su equipo.
 
 Este enfoque de eliminación lógica permite realizar auditorías o recuperar datos más fácilmente en el futuro.
 
-
-
-
 ```javascript
 router.delete('/:id', async (req, res) => {
   try {
@@ -433,7 +430,7 @@ Postman es una herramienta muy útil para probar APIs. Permite realizar solicitu
 
 1. **Clona el repositorio**:
     ```bash
-    git clone <URL_DEL_REPOSITORIO>
+    git clone https://github.com/LuckyDg/api_phiz_heroes.git
     ```
 2. Instala las dependencias: Entra en la carpeta del proyecto y ejecuta:
 
