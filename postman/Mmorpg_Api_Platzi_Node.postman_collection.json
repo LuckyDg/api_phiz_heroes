@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "7ec7828f-4c25-426c-94aa-407dde195c40",
+		"name": "Mmorpg Api Platzi Node",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32198751"
+	},
+	"item": [
+		{
+			"name": "Get Hero All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/heroes",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"heroes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Hero Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/heroes/ca9301c4-7bea-44f7-a669-118d67dc5f5b",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"heroes",
+						"ca9301c4-7bea-44f7-a669-118d67dc5f5b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Hero",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Rogue\",\r\n    \"description\": \"Sneaky and quick, master of stealth. 🧝🏼\",\r\n    \"level\": 1,\r\n    \"healthPoints\": 110,\r\n    \"manaPoints\": 40,\r\n    \"attack\": 22,\r\n    \"defense\": 14,\r\n    \"skills\": [\r\n        \"Backstab\",\r\n        \"Invisibility\"\r\n    ],\r\n    \"weapon\": \"Dagger\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/heroes",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"heroes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Hero",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"level\": 100,\r\n    \"healthPoints\": 1200,\r\n    \"manaPoints\": 200,\r\n    \"attack\": 172,\r\n    \"defense\": 50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/api/heroes/ca9301c4-7bea-44f7-a669-118d67dc5f5b",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"heroes",
+						"ca9301c4-7bea-44f7-a669-118d67dc5f5b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Hero",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/heroes/ca9301c4-7bea-44f7-a669-118d67dc5f5b",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"heroes",
+						"ca9301c4-7bea-44f7-a669-118d67dc5f5b"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3000",
+			"type": "default"
+		}
+	]
+}
