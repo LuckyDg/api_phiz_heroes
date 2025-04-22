@@ -24,5 +24,33 @@ npm run dev
 npm run start
 ```
 
+6. Clean Arquitecture
+- Controllers(router, middlewares)
+- Services
+- Models
+
+7. Middlewares
+- Estan en medio de el request y el response, la propiedad next es la que se pasa a la siguiente middleware.
+- Middlewares de tipo error: se encargan de manejar errores, por ejemplo, el middleware de error de validación.(error, req, res, next)
+
+8. Joi
+- Joi es una librería de validación de datos que nos ayuda a crear esquemas de validación de datos.
+
+9. Mas Middlewares
+- Cors
+- Morgan
+- Helmet
+- Express Debug
+- Express Slash
+- Passport
+
+10. Recomendaciones antes de enviar a producción
+- Cors
+- Https
+- Procesos de Build
+- Remover logs
+- Seguridad(Helmet)
+- Testing
+
 ### Documentación
 [Documentación del proyecto](Docs/Doc.md)
